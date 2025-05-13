@@ -1,0 +1,63 @@
+/* Header.css */
+.header-outer-container {
+    position: sticky;
+    top: 0;
+    background-color:black;
+    padding: 20px 0;
+    /* background-color: transparent; */
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+  
+  .header-left ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 25px; /* Adjust this value for spacing between items */
+  }
+  
+  .header-left ul li:first-child {
+    margin-right: 20px; /* Extra space after logo */
+  }
+  
+  .header-left ul li img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .header-left ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .header-left ul li a:hover {
+    color: #e50914;
+  }
+  
+  .header-right ul {
+    /* Styles for right side of header */
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+    
+  }
