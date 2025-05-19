@@ -10,7 +10,7 @@ function Banner  ()  {
     (async () => {
       try {
         const request = await axios.get(requests.fetchNetflixOriginals);
-        console.log(request);
+        // console.log(request);
 
         setMovie(
           request.data.results[
